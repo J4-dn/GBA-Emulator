@@ -1,0 +1,6 @@
+{
+    "name": "GBA Emulator Environment",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "remoteUser": "vscode",
+    "postCreateCommand": "sudo apt update && sudo apt install -y mgba"
+}
